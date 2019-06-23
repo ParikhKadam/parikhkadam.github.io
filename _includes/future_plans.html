@@ -1,0 +1,15 @@
+{%- assign plans = site.data.future_plans -%}
+
+<div class="w-100">
+    <h2 class="mb-5">Future Plans</h2>
+    <ul class="fa-ul mb-0">
+      
+      {%- for plan in plans -%}
+      <li>
+        <i class="fa-li fa fa-sync text-warning"></i>
+      {{ plan }}
+      </li>
+      {%- endfor -%}
+      
+    </ul>
+</div>

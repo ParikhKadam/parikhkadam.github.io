@@ -1,0 +1,11 @@
+- title: CS224d - Deep Learning for Natural Language Processing 
+  provider: Stanford University
+  summary: Learnt word vector representations, window-based neural networks, recurrent neural networks, long-short-term-memory models, recursive neural networks and convolutional neural networks. It taught me embeddings at different levels, architectures of common networks to solve NLP based problems and also gave information about various on-going research topics in NLP.
+  start_date: 2018
+  end_date: 2019
+
+- title: CS229 - Machine Learning
+  provider: Stanford University
+  summary: Learnt several algorithms of supervised learning, unsupervised learning, reinforcement learning and adaptive control. Also learnt concepts such as bias/variance trade-off, robotic control, data mining, speech recognition, and text and web data processing.
+  start_date: 2018
+  end_date: 2019

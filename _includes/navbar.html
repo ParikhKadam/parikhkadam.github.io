@@ -1,0 +1,70 @@
+{% assign name = site.data.about[0].firstname | append: ' ' | append: site.data.about[0].lastname %}
+
+<a class="navbar-brand js-scroll-trigger" href="#page-top">
+    <span class="d-block d-lg-none">{{ name }}</span>
+    <span class="d-none d-lg-block">
+      <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="">
+    </span>
+</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav">
+    
+    {%- if page.sections contains "about" -%}
+      <li class="nav-item">
+        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+      </li>
+    {%- endif -%}
+
+    {%- if page.sections contains "experience" -%}
+    <li class="nav-item">
+      <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+    </li>
+    {%- endif -%}
+
+    {%- if page.sections contains "education" -%}
+    <li class="nav-item">
+      <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+    </li>
+    {%- endif -%}
+
+    {%- if page.sections contains "skills" -%}
+    <li class="nav-item">
+      <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+    </li>
+    {%- endif -%}
+    
+    {%- if page.sections contains "projects" -%}
+    <li class="nav-item">
+      <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+    </li>
+    {%- endif -%}
+
+    {%- if page.sections contains "courses" -%}
+    <li class="nav-item">
+      <a class="nav-link js-scroll-trigger" href="#courses">Courses</a>
+    </li>
+    {%- endif -%}
+
+    {%- if page.sections contains "interests" -%}
+    <li class="nav-item">
+      <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+    </li>
+    {%- endif -%}
+
+    {%- if page.sections contains "achievements" -%}
+    <li class="nav-item">
+      <a class="nav-link js-scroll-trigger" href="#achievements">Achievements</a>
+    </li>
+    {%- endif -%}
+
+    {%- if page.sections contains "future plans" -%}
+    <li class="nav-item">
+      <a class="nav-link js-scroll-trigger" href="#future-plans">Future Plans</a>
+    </li>
+    {%- endif -%}
+
+  </ul>
+</div>

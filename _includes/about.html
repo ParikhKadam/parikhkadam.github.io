@@ -1,0 +1,33 @@
+{% assign about = site.data.about[0] %}
+
+<div class="w-100">
+  <h1 class="mb-0">{{ about.firstname }}
+    <span class="text-primary">{{ about.lastname }}</span>
+  </h1>
+  <div class="subheading mb-5">{{ about.street }} · {{ about.city }}, {{ about.state }}, {{ about.country }} · {{ about.zip_code }} · {{ about.phone_number }} ·
+    <a href="mailto:name@email.com">{{ about.email_id }}</a>
+  </div>
+  <p class="lead mb-5">{{ about.description }}</p>
+  <div class="subheading">How it all started?</div>
+  <p class="lead mb-5">{{ about.journey }}</p>
+  <div class="social-icons">
+    <a href={{ about.linkedin }}>
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href={{ about.github }}>
+      <i class="fab fa-github"></i>
+    </a>
+    <a href={{ about.medium }}>
+      <i class="fab fa-medium-m"></i>
+    </a>
+    <a href={{ about.blogger }}>
+      <i class="fab fa-blogger-b"></i>
+    </a>
+    <a href={{ about.twitter }}>
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a href={{ about.facebook }}>
+      <i class="fab fa-facebook-f"></i>
+    </a>
+  </div>
+</div>

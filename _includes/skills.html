@@ -1,0 +1,66 @@
+{%- assign techs = site.data.techs -%}
+{%- assign knowledge = site.data.knowledge -%}
+{%- assign skills = site.data.skills -%}
+
+<div class="w-100">
+  <h2 class="mb-5">Skills</h2>
+
+  <div class="subheading mb-3">Programming Languages &amp; Technologies</div>
+  <ul class="list-inline dev-icons mb-3">
+    <li class="list-inline-item">
+      <i class="fab fa-python"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="fab fa-java"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="fab fa-html5"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="fab fa-css3-alt"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="fab fa-php"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="fab fa-bootstrap"></i>
+    </li>
+    <li class="list-inline-item">
+      <i class="fab fa-github-alt"></i>
+    </li>
+  </ul>
+
+  <div class="subheading mb-3">Libraries &amp; Frameworks</div>
+  <ul class="list-inline mb-3">
+    
+    {%- for tech in techs -%}
+      <li class="list-inline-item">
+        <i class="fa fa-check"></i>
+        {{ tech }}
+      </li>
+    {%- endfor -%}
+
+  </ul>
+
+  <div class="subheading mb-3">Knowledge</div>
+  <ul class="fa-ul mb-0 mb-3">
+    
+    {%- for know in knowledge -%}
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        {{ know }}
+      </li>
+    {%- endfor -%}
+  </ul>
+
+  <div class="subheading mb-3">Skills</div>
+  <ul class="fa-ul mb-0">
+    
+    {%- for skill in skills -%}
+      <li>
+        <i class="fa-li fa fa-check"></i>
+        {{ skill }}
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>

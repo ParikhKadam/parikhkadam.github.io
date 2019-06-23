@@ -1,0 +1,39 @@
+- title: H+Tree
+  type: Research based Professional Project
+  tools_and_technologies: Python, C++, InnoDB, B+Tree
+  domains: Datastructure and Algorithms, Machine Learning, Neural Networks.
+  summary: An efficient way of storing data in databases. High speed and less memory (as well as storage) requirements is the main aim of this project.
+  start_date: May 2019
+  end_date: Present
+
+- title: Google Photos' feature - Search by Objects in Photos and Videos
+  type: Professional Project
+  tools_and_technologies: Python, Tensorflow, OpenCV, MySQL, FLask
+  domains: Computer Vision, Deep Learning, Neural Networks.
+  summary: Made a web-app which takes a video as an input and records objects in the video along with timestamp. A user can then search by using object name(s) and the application will output the video and the time at which object was detected.
+  start_date: March 2019
+  end_date: April 2019
+
+- title: <a href="https://github.com/ParikhKadam/bidaf-keras">Machine Comprehension model for Question Answering using Deep Learning</a>
+  type: Opensource Project
+  tools_and_technologies: Python, Keras, Numpy, NLTK
+  domains: Natural Language Processing, Natural Language Understanding, Deep Learning, Neural Networks.
+  summary: Implemented <a href="https://arxiv.org/abs/1611.01603">Bidirectional Attention Flow for Machine Comprehension</a> in Keras from scratch. Machine comprehension task is answering a query about a given context (paragraph). It requires modeling complex interactions between the passage and the query. Typically this method uses attention mechanism to focus on a small portion of the paragraph and summarize it with a fixed-size vector, couple attentions temporally, and output probability spans for answer start and end.
+  start_date: November 2018
+  end_date: April 2019
+
+- title: Web Scraper for scraping Google Search results 
+  type: Mini Project
+  tools_and_technologies: Python, BeautifulSoup, NLTK
+  domains: Web Scraping
+  summary: Built a scraping application which can scrape Google search results for a particular query provided by the user. It is able to extract title, url and text from search results. Not only that, but I also added a simple algorithm which is capable of extracting data even if the structure of webpage changes. Hence, the application is able to handle the page structure dynamically.
+  start_date: May 2019
+  end_date: May 2019
+
+- title: Sentiment analysis on IMDB reviews dataset
+  type: Mini Project
+  tools_and_technologies: Python, Keras
+  domains: Natural Language Processing, Deep Learning, Neural Networks
+  summary: The task included developing neural network architectures based on supervised learning which could learn from the input data to predict whether the review was positive or negative. I developed two different architectures and compared them on the dataset. One was a simple Deep Dense neural network while the other was a RNN architecture. Obviously, the RNN performed better.
+  start_date: October 2018
+  end_date: October 2018

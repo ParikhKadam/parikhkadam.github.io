@@ -1,0 +1,19 @@
+{%- assign courses = site.data.courses -%}
+
+<div class="w-100">
+  <h2 class="mb-5">Courses</h2>
+
+  {%- for course in courses -%}
+  <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+    <div class="resume-content">
+      <h3 class="mb-0">{{ course.title }}</h3>
+      <div class="subheading mb-3">{{ course.provider }}</div>
+      <p>{{ course.summary }}</p>
+    </div>
+    <div class="resume-date text-md-right">
+      <span class="text-primary">{{ course.start_date }} - {{ course.end_date }}</span>
+    </div>
+  </div>
+  {%- endfor -%}
+
+</div>
