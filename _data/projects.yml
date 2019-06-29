@@ -6,11 +6,11 @@
   start_date: May 2019
   end_date: Present
 
-- title: Google Photos' feature - Search by Objects in Photos and Videos
+- title: Palpebra Air
   type: Professional Project
   tools_and_technologies: Python, Tensorflow, OpenCV, MySQL, FLask
   domains: Computer Vision, Deep Learning, Neural Networks.
-  summary: Made a web-app which takes a video as an input and records objects in the video along with timestamp. A user can then search by using object name(s) and the application will output the video and the time at which object was detected.
+  summary: It's similar to a combination of <a href="https://cloud.google.com/vision/#vision-api-demo">Google's Vision AI</a> and <a href="https://cloud.google.com/video-intelligence/#video-intelligence-api-demo">Google's Video AI</a> with required changes. Made a web-app which takes video/image as an input and records objects in it along with timestamp (if video). A user can then search by using object name(s) and the application will output the video/image and the frame at which object was detected.
   start_date: March 2019
   end_date: April 2019
 
