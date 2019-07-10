@@ -2,7 +2,7 @@
   type: Research based Professional Project
   tools_and_technologies: Python, C++, InnoDB, B+Tree
   domains: Datastructure and Algorithms, Machine Learning, Neural Networks.
-  summary: An efficient way of storing data in databases. High speed and less memory (as well as storage) requirements is the main aim of this project.
+  summary: An efficient way of storing data in databases. High speed and less memory (as well as storage) requirements is the main aim of this project. Integrating ML concepts with data storage systems is a way of achieving this.
   start_date: May 2019
   end_date: Present
 
