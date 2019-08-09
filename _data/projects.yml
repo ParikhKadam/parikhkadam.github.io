@@ -1,3 +1,11 @@
+- title: Achieving high accuracy on modified MNIST dataset
+  type: Creative and Unique Project
+  tools_and_technologies: Python, Keras, Numpy, Matplotlib
+  domains: Neural Networks, Data Processing, Computer Vision, Deep Learning.
+  summary: Most of Deep Learning Enginners believe that if we train a CNN on a dataset in which the objects (important patterns) are always in a fixed region in the training set, then the model will perform poorly on images which contains objects in the other regions as it never saw objects in these regions during training. But that's not true. CNNs are capable of detecting patterns in any part of the image and hence, it is possible. So, I did a small experiment to show that.
+  start_date: August 2019
+  end_date: August 2019
+
 - title: H+Tree
   type: Research based Professional Project
   tools_and_technologies: Python, C++, InnoDB, B+Tree
