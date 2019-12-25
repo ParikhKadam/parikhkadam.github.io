@@ -1,15 +1,15 @@
-- title: <a href="https://github.com/ParikhKadam/mnist-experiments/blob/master/experiment1.ipynb">Achieving high accuracy on modified MNIST dataset</a>
-  type: Creative and Unique Project
-  tools_and_technologies: Python, Keras, Numpy, Matplotlib
-  domains: Neural Networks, Data Processing, Computer Vision, Deep Learning.
-  summary: Most of Deep Learning Enginners believe that if we train a CNN on a dataset in which the objects (important patterns) are always in a fixed region in the training set, then the model will perform poorly on images which contains objects in the other regions as it never saw objects in these regions during training. But that's not true. CNNs are capable of detecting patterns in any part of the image and hence, it is possible. So, I did a small experiment to show that.
-  start_date: August 2019
-  end_date: August 2019
+- title: Vergesource
+  type: Professional Project
+  tools_and_technologies: Python, Java, Django, BeautifoulSoup, Grobid
+  domains: Datastructure and Algorithms, Deep Learning, Neural Networks, Data Science
+  summary: Name tells is all.. It's a simple web based GUI provided to users who are willing to write scientific papers in various different formats like APA, IEEE, etc. It uses a deep learning based approach to extract required data from a paper's PDF and data processing techniques to clean, improve and modify the extracted data. Then, we provide an online editor, which can provide our users a complete interface to writing scientific papers.
+  start_date: December 2019
+  end_date: Present
 
 - title: H+Tree
   type: Research based Professional Project
   tools_and_technologies: Python, C++, InnoDB, B+Tree
-  domains: Datastructure and Algorithms, Machine Learning, Neural Networks.
+  domains: Datastructure and Algorithms, Machine Learning, Neural Networks
   summary: An efficient way of storing data in databases. High speed and less memory (as well as storage) requirements is the main aim of this project. Integrating ML concepts with data storage systems and using bitwise operators is a way of achieving this.
   start_date: May 2019
   end_date: Present
@@ -17,7 +17,7 @@
 - title: Palpebra Air
   type: Professional Project
   tools_and_technologies: Python, Tensorflow, OpenCV, MySQL, FLask
-  domains: Computer Vision, Deep Learning, Neural Networks.
+  domains: Computer Vision, Deep Learning, Neural Networks
   summary: It's similar to a combination of <a href="https://cloud.google.com/vision/#vision-api-demo">Google's Vision AI</a> and <a href="https://cloud.google.com/video-intelligence/#video-intelligence-api-demo">Google's Video AI</a> with required changes. Made a web-app which takes video/image as an input and records objects in it along with timestamp (if video). A user can then search by using object name(s) and the application will output the video/image and the frame at which object was detected.
   start_date: March 2019
   end_date: April 2019
@@ -29,6 +29,30 @@
   summary: Implemented <a href="https://arxiv.org/abs/1611.01603">Bidirectional Attention Flow for Machine Comprehension</a> in Keras from scratch. Machine comprehension task is answering a query about a given context (paragraph). It requires modeling complex interactions between the passage and the query. Typically this method uses attention mechanism to focus on a small portion of the paragraph and summarize it with a fixed-size vector, couple attentions temporally, and output probability spans for answer start and end.
   start_date: November 2018
   end_date: April 2019
+
+- title: <a href="https://github.com/ParikhKadam/mnist-experiments/blob/master/experiment1.ipynb">Achieving high accuracy on modified MNIST dataset</a>
+  type: Creative and Unique Project
+  tools_and_technologies: Python, Keras, Numpy, Matplotlib
+  domains: Neural Networks, Data Processing, Computer Vision, Deep Learning
+  summary: Most of Deep Learning Enginners believe that if we train a CNN on a dataset in which the objects (important patterns) are always in a fixed region in the training set, then the model will perform poorly on images which contains objects in the other regions as it never saw objects in these regions during training. But that's not true. CNNs are capable of detecting patterns in any part of the image and hence, it is possible. So, I did a small experiment to show that.
+  start_date: August 2019
+  end_date: August 2019
+
+- title: ANNs and Model Interpretability
+  type: Professional Mini Project
+  tools_and_technologies: Python, Tensorflow, Scikit-Learn, Matplotlib, Pandas
+  domains: Machine Learning, Deep Learning, Neural Networks
+  summary: End-to-end task was to interpret what ANNs learn. For this a flight dataset was used which contained various features like date and time, source and destination, number of flights, and much more. Trained various ML models like decision trees and random forests, visualized them and feature importances. Also trained an ANN and used a decision tree trained on the output of ANN in order to interpret what the ANN learned, which features are important to ANN, how much did we advantage by using an ANN over a simple ML model and much more.
+  start_date: November 2019
+  end_date: November 2019
+
+- title: Artifical Neural Networks in Numpy
+  type: Professional Mini Project
+  tools_and_technologies: Python, Numpy, Matplotlib
+  domains: Neural Networks
+  summary: Wrote neural networks from scratch using numpy and implemented backpropagation using a simple gradient descent optimizer. This project was meant to be a part of training lab and hence visualizing the trained network on datasets was important. Used different datasets like step, one-hump, two-hump, sine and others. Built different models and plotted loss at various steps and finally, plotted y_true vs y_pred.
+  start_date: November 2019
+  end_date: November 2019
 
 - title: Web Scraper for scraping Google Search results 
   type: Mini Project
