@@ -2,7 +2,7 @@
   type: Professional Project
   tools_and_technologies: Python, Java, Django, BeautifoulSoup, Grobid
   domains: Datastructure and Algorithms, Deep Learning, Neural Networks, Data Science
-  summary: Name tells is all.. It's a simple web based GUI provided to users who are willing to write scientific papers in various different formats like APA, IEEE, etc. It uses a deep learning based approach to extract required data from a paper's PDF and data processing techniques to clean, improve and modify the extracted data. Then, we provide an online editor, which can provide our users a complete interface to writing scientific papers.
+  summary: It is a research paper builder. A simple web based GUI provided to users who are willing to write scientific papers in various different formats like APA, IEEE, etc. It uses a deep learning based approach to extract required data from a paper's PDF and data processing techniques to clean, improve and modify the extracted data. Then, we provide an online editor, which can provide our users a complete interface to writing scientific papers.
   start_date: December 2019
   end_date: Present
 
