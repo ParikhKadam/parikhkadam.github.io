@@ -35,8 +35,8 @@
     
     {%- for tech in techs -%}
       <li class="list-inline-item">
-        <i class="fa fa-check"></i>
-        {{ tech }}
+        <i class="fa fa-check text-success"></i>
+        <span class="lead">{{ tech }}</span>
       </li>
     {%- endfor -%}
 
@@ -47,8 +47,8 @@
     
     {%- for know in knowledge -%}
       <li>
-        <i class="fa-li fa fa-book"></i>
-        {{ know }}
+        <i class="fa-li fa fa-book text-warning"></i>
+        <span class="lead">{{ know }}</span>
       </li>
     {%- endfor -%}
   </ul>
@@ -58,8 +58,8 @@
     
     {%- for skill in skills -%}
       <li>
-        <i class="fa-li fa fa-plus-circle"></i>
-        {{ skill }}
+        <i class="fa-li fa fa-plus-circle text-success"></i>
+        <span class="lead">{{ skill }}</span>
       </li>
     {%- endfor -%}
   </ul>

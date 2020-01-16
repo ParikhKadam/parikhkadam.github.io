@@ -8,13 +8,13 @@
     <div class="resume-content">
       <h3 class="mb-0">{{ project.title }}</h3>
       <div class="subheading mb-3">{{ project.type }}</div>
-      <div>Tools and Technologies: {{ project.tools_and_technologies }}</div>
-      <p>Domains: {{ project.domains }}</p>
-      <div>Summary:</div>
-      <p>{{ project.summary }}</p>
+      <div class="lead">Tools and Technologies: {{ project.tools_and_technologies }}</div class="lead">
+      <p class="lead">Domains: {{ project.domains }}</p>
+      <div class="lead">Summary:</div class="lead">
+      <p class="lead">{{ project.summary }}</p class="lead">
     </div>
     <div class="resume-date text-md-right">
-      <span class="text-primary">{{ project.start_date }} - {{ project.end_date }}</span>
+      <span class="lead text-primary">{{ project.start_date }} - {{ project.end_date }}</span>
     </div>
   </div>
   {%- endfor -%}

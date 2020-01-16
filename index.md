@@ -10,5 +10,6 @@ sections:
     - courses
     - interests
     - achievements
-    - future plans
+    - literature
+    # - future plans
 ---
