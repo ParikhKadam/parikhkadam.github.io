@@ -2,3 +2,4 @@ authored:
 implemented:
   - <a href="https://github.com/ParikhKadam/bidaf-keras">Bidirectional Attention Flow for Machine Comprehension</a>
 read:
+  - '<a href="https://github.com/ParikhKadam/papers-summary/blob/master/Fooling%20Deep%20Neural%20Networks/Deep%20Neural%20Networks%20are%20Easily%20Fooled:High%20Confidence%20Predictions%20for%20Unrecognizable%20Images/dissection.md">Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images</a>'
