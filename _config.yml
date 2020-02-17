@@ -1,7 +1,7 @@
+whitelist: {jekyll-analytics}
+
 plugins:
   - jekyll-analytics
-
-whitelist: {jekyll-analytics}
 
 title: Kadam Parikh
 description: Human learner who is making machines learn. Experience with machine learning, web scraping, data analysis and implementing neural network architectures. Loves technology hacks..
