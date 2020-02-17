@@ -1,6 +1,7 @@
-whitelist:
-  - jekyll-analytics
 plugins:
+  - jekyll-analytics
+
+whitelist:
   - jekyll-analytics
 
 title: Kadam Parikh
