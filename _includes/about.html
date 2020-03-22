@@ -8,7 +8,10 @@
     {{ about.city }}, {{ about.state }}, {{ about.country }}
     </br>
     <a href="mailto:{{ about.email_id }}">{{ about.email_id }}</a>
+    </br>
   </div>
+  <p class="lead mb-5">{{ about.tagline }}</p>  
+  <div class="subheading">Description</div>
   <p class="lead mb-5">{{ site.description }}</p>
   <div class="subheading">How it all started?</div>
   <p class="lead mb-5">{{ about.journey }}</p>
@@ -25,11 +28,11 @@
     <a href={{ about.blogger }}>
       <i class="fab fa-blogger-b"></i>
     </a>
-    <a href={{ about.twitter }}>
+    <!-- <a href={{ about.twitter }}>
       <i class="fab fa-twitter"></i>
     </a>
     <a href={{ about.facebook }}>
       <i class="fab fa-facebook-f"></i>
-    </a>
+    </a> -->
   </div>
 </div>

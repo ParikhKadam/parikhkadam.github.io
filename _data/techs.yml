@@ -1,11 +1,16 @@
 - Numpy
-- Scikit-learn
+- Scipy
+- Scikit Learn
 - Pandas
 - Matplotlib
+- Seaborn
 - BeautifulSoup
+- Selenium
 - Keras
-- Tensorflow
+- TensorFlow 2.0
+- PyTorch
 - NLTK
 - Stanford CoreNLP
-- Flask
 - OpenCV
+- Flask
+- Django

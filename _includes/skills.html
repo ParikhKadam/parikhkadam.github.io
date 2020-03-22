@@ -1,5 +1,4 @@
 {%- assign techs = site.data.techs -%}
-{%- assign knowledge = site.data.knowledge -%}
 {%- assign skills = site.data.skills -%}
 
 <div class="w-100">
@@ -9,24 +8,51 @@
   <ul class="list-inline dev-icons mb-3">
     <li class="list-inline-item">
       <i class="fab fa-python"></i>
+      <span class="tooltip-text">
+        Python
+      </span>
     </li>
     <li class="list-inline-item">
       <i class="fab fa-java"></i>
+      <span class="tooltip-text">
+        Java
+      </span>
     </li>
     <li class="list-inline-item">
-      <i class="fab fa-html5"></i>
-    </li>
-    <li class="list-inline-item">
-      <i class="fab fa-css3-alt"></i>
+      <i class="fab fa-cuttlefish">++</i>
+      <span class="tooltip-text">
+        C++
+      </span>
     </li>
     <li class="list-inline-item">
       <i class="fab fa-php"></i>
+      <span class="tooltip-text">
+        PHP
+      </span>
     </li>
     <li class="list-inline-item">
       <i class="fab fa-bootstrap"></i>
+      <span class="tooltip-text">
+        Bootstrap
+      </span>
+    </li>
+    <li class="list-inline-item">
+      <i class="fab fa-js-square"></i>
+      <span class="tooltip-text">
+        Javascript
+      </span>
     </li>
     <li class="list-inline-item">
       <i class="fab fa-github-alt"></i>
+      <span class="tooltip-text">
+        Git
+      </span>
+    </li>
+    <li class="list-inline-item">
+      <i class="fab fa-docker"></i>
+      <span class="tooltip-text">
+        Docker
+      </span>
     </li>
   </ul>
 
@@ -42,25 +68,27 @@
 
   </ul>
 
-  <div class="subheading mb-3">Knowledge</div>
-  <ul class="fa-ul mb-0 mb-3">
-    
-    {%- for know in knowledge -%}
-      <li>
-        <i class="fa-li fa fa-book text-warning"></i>
-        <span class="lead">{{ know }}</span>
-      </li>
-    {%- endfor -%}
-  </ul>
-
   <div class="subheading mb-3">Skills</div>
-  <ul class="fa-ul mb-0">
     
-    {%- for skill in skills -%}
+    <span class="lead" style="font-weight: bold;">Machine Learning:</span>
+    <ul class="fa-ul mb-0">
+      {%- for skill in skills['Machine Learning'] -%}
       <li>
         <i class="fa-li fa fa-plus-circle text-success"></i>
         <span class="lead">{{ skill }}</span>
       </li>
-    {%- endfor -%}
-  </ul>
+      {%- endfor -%}
+    </ul>
+
+    </br>
+    <span class="lead" style="font-weight: bold;">Software Engineering:</span>
+    <ul class="fa-ul mb-0">
+      {%- for skill in skills['Software Engineering'] -%}
+      <li>
+        <i class="fa-li fa fa-plus-circle text-success"></i>
+        <span class="lead">{{ skill }}</span>
+      </li>
+      {%- endfor -%}
+    </ul>
+    
 </div>

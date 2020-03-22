@@ -1,8 +1,14 @@
+- role: Software Engineer
+  company: F(x) Data Labs Pvt. Ltd.
+  work: While most of the day-to-day tasks are same, increased responsibilities include conducting research in order to properly plan the project, working as project lead, guiding teams, collaborating with other programmers to design well-organized, optimized, and documented source code, enhancing applications by identifying opportunities for improvement, making recommendations and designing and implementing systems, and handling client communications.
+  start_date: March 2020
+  end_date: Present
+
 - role: Associate Software Engineer
   company: F(x) Data Labs Pvt. Ltd.
-  work: Responsibilities include all the tasks of software engineering i.e. from requirement gathering to deploying. Developing logic and implementing machine/deep learning techniques to solve problems. Writing and implementing new algorithms with a view to improve the legacy systems. Using technologies like Tensorflow, Keras, Tf-Learn and integrating ML systems with other technologies to develop a ML solution to the problem. Writing unittests, profiling the code and optimizing it, conducting code reviews is also a part of my work. Moreover, managing the project, guiding the team and conducting interviews are also a part of my work.
+  work: Responsibilities include all the tasks of software engineering i.e. from requirement gathering to deploying. Developing logic and implementing machine/deep learning techniques to solve problems, writing and implementing new algorithms with a view to improve the legacy systems, using technologies like Tensorflow, Keras and integrating ML systems to develop a ML solution to the problem. Writing unittests, profiling the code and optimizing it, conducting code reviews and interviews is also a part of my work.
   start_date: February 2019
-  end_date: Present
+  end_date: February 2020
 
 - role: <a href="https://libraryofhacks.blogspot.com">Content Writer -- Cyber Security</a>
   company: Blogger

@@ -1,7 +1,15 @@
+- title: Object Detection Meets Knowledge Graphs
+  type: Research based Professional Project
+  tools_and_technologies: Python, TensorFlow,
+  domains: Deep Learning, Neural Networks, Data Science
+  summary: In this paper, the authors propose a novel framework of knowledge-aware object detection, which enables the integration of external knowledge such as knowledge graphs into any object detection algorithm. It employs the notion of semantic consistency to quantify and generalize knowledge, which improves object detection through a re-optimization process to achieve better consistency with background knowledge.
+  start_date: February 2019
+  end_date: March 2020
+
 - title: Vergesource
   type: Professional Project
   tools_and_technologies: Python, Java, Django, BeautifulSoup, Grobid
-  domains: Datastructure and Algorithms, Deep Learning, Neural Networks, Data Science
+  domains: Data Structures and Algorithms, Deep Learning, Neural Networks, Data Science
   summary: It is a research paper builder. A simple web based GUI provided to users who are willing to write scientific papers in various different formats like APA, IEEE, etc. It uses a deep learning based approach to extract required data from a paper's PDF and data processing techniques to clean, improve and modify the extracted data. Then, we provide an online editor, which can provide our users a complete interface to writing scientific papers.
   start_date: December 2019
   end_date: January 2020
@@ -9,14 +17,14 @@
 - title: H+Tree
   type: Research based Professional Project
   tools_and_technologies: Python, C++, InnoDB, B+Tree
-  domains: Datastructure and Algorithms, Machine Learning, Neural Networks
+  domains: Data Structures and Algorithms, Machine Learning, Neural Networks
   summary: An efficient way of storing data in databases. High speed and less memory (as well as storage) requirements is the main aim of this project. Integrating ML concepts with data storage systems and using bitwise operators is a way of achieving this.
   start_date: May 2019
   end_date: Present
 
 - title: Palpebra Air
   type: Professional Project
-  tools_and_technologies: Python, Tensorflow, OpenCV, MySQL, FLask
+  tools_and_technologies: Python, TensorFlow, OpenCV, MySQL, FLask
   domains: Computer Vision, Deep Learning, Neural Networks
   summary: It's similar to a combination of <a href="https://cloud.google.com/vision/#vision-api-demo">Google's Vision AI</a> and <a href="https://cloud.google.com/video-intelligence/#video-intelligence-api-demo">Google's Video AI</a> with required changes. Made a web-app which takes video/image as an input and records objects in it along with timestamp (if video). A user can then search by using object name(s) and the application will output the video/image and the frame at which object was detected.
   start_date: March 2019
@@ -40,7 +48,7 @@
 
 - title: ANNs and Model Interpretability
   type: Professional Mini Project
-  tools_and_technologies: Python, Tensorflow, Scikit-Learn, Matplotlib, Pandas
+  tools_and_technologies: Python, TensorFlow, Scikit-Learn, Matplotlib, Pandas
   domains: Machine Learning, Deep Learning, Neural Networks
   summary: End-to-end task was to interpret what ANNs learn. For this a flight dataset was used which contained various features like date and time, source and destination, number of flights, and much more. Trained various ML models like decision trees and random forests, visualized them and feature importances. Also trained an ANN and used a decision tree trained on the output of ANN in order to interpret what the ANN learned, which features are important to ANN, how much did we advantage by using an ANN over a simple ML model and much more.
   start_date: November 2019

@@ -6,6 +6,7 @@ sections:
     - experience
     - education
     - skills
+    - knowledge
     - projects
     - courses
     - interests

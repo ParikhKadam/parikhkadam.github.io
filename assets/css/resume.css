@@ -2,6 +2,7 @@
  * Start Bootstrap - Resume v5.0.7 (https://startbootstrap.com/template-overviews/resume)
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ * Modified by Kadam Parikh (https://parikhkadam.github.io)
  */
 
 body {
@@ -189,4 +190,31 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.tooltip-text {
+  position: absolute;
+  display: none;
+  font-size: 1rem;
+  border-radius: 3px; 
+  transition: opacity 1s ease-out;
+}
+
+.fab:hover + .tooltip-text{
+display: block;
+color: #BD5D38;
+animation: fadeIn 2s;
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}  
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.lead {
+  font-size: 1.15rem;
 }

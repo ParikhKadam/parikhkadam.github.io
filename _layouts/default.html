@@ -74,6 +74,14 @@
 
       <hr class="m-0">
       {%- endif -%}
+
+      {%- if page.sections contains "knowledge" -%}
+      <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="knowledge">
+        {% include knowledge.html %}
+      </section>
+
+      <hr class="m-0">
+      {%- endif -%}
   
       {%- if page.sections contains "projects" -%}
       <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="projects">

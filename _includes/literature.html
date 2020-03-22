@@ -7,13 +7,13 @@
   <ul class="fa-ul list-inline mb-3">
     
     {%- if literature.authored == null -%}
-      <li class="list-inline-item">
+      <li class="list-item">
         <i class="fa-li fa fa-sync text-danger"></i>
         <span class="lead">Something might not be right..</span>
       </li>
     {%- else -%}
       {%- for paper in literature.authored -%}
-        <li class="list-inline-item">
+        <li class="list-item">
           <i class="fa-li fa fa-check text-success"></i>
           <span class="lead">{{ paper}}</span>
         </li>
@@ -26,13 +26,13 @@
   <ul class="fa-ul list-inline mb-3">
     
     {%- if literature.implemented == null -%}
-      <li class="list-inline-item">
+      <li class="list-item">
         <i class="fa-li fa fa-sync text-danger"></i>
         <span class="lead">Something might not be right..</span>
       </li>
     {%- else -%}
       {%- for paper in literature.implemented -%}
-        <li class="list-inline-item">
+        <li class="list-item">
           <i class="fa-li fa fa-check text-success"></i>
           <span class="lead">{{ paper}}</span>
         </li>
@@ -43,16 +43,16 @@
   <ul class="fa-ul list-inline mb-3">
     
     {%- if literature.read == null -%}
-      <li class="list-inline-item">
+      <li class="list-item">
         <i class="fa-li fa fa-sync text-danger"></i>
         <span class="lead">Something might not be right..</span>
       </li>
     {%- else -%}
       {%- for paper in literature.read -%}
-      <li class="list-inline-item">
-        <i class="fa-li fa fa-book text-warning"></i>
-        <span class="lead">{{ paper}}</span>
-      </li>
+        <li class="list-item">
+          <i class="fa-li fa fa-book text-warning"></i>
+          <span class="lead">{{ paper}}</span>
+        </li>
       {%- endfor -%}
     {%- endif -%}
 
