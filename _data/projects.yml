@@ -77,3 +77,11 @@
   summary: The task included developing neural network architectures based on supervised learning which could learn from the input data to predict whether the review was positive or negative. I developed two different architectures and compared them on the dataset. One was a simple Deep Dense neural network while the other was a RNN architecture. Obviously, the RNN performed better.
   start_date: October 2018
   end_date: October 2018
+
+- title: ITI Job Portal
+  type: Team Project
+  tools_and_technologies: Core PHP, HTML, CSS, Bootstrap, Javascript, MariaDB
+  domains: Web Development, Web Design, Database Design and Management
+  summary: A website similar to <a href="https://linkedin.com">LinkedIn</a> but specialized for ITI students and professionals.
+  start_date: November 2019
+  end_date: March 2018
