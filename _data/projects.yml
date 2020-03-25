@@ -3,7 +3,7 @@
   tools_and_technologies: Python, TensorFlow,
   domains: Deep Learning, Neural Networks, Data Science
   summary: In this paper, the authors propose a novel framework of knowledge-aware object detection, which enables the integration of external knowledge such as knowledge graphs into any object detection algorithm. It employs the notion of semantic consistency to quantify and generalize knowledge, which improves object detection through a re-optimization process to achieve better consistency with background knowledge.
-  start_date: February 2019
+  start_date: February 2020
   end_date: March 2020
 
 - title: Vergesource
