@@ -1,3 +1,5 @@
-- Hacking Admin Panel of GTU Exams website
-- Released first version of <a href="https://github.com/ParikhKadam/bidaf-keras">Bidirectional Attention Flow for Machine Comprehension</a>
-- Having part in creation of an initial version of H+Tree (a data structure for faster access to database systems)
+- Earned GitHub's Arctic Code Vault Contributor badge. 
+- Found another severe security vulnerability (XSS) in GTU Exams website.
+- Having part in creation of an initial version of H+Tree (a data structure for faster access to database systems).
+- Released first version of <a href="https://github.com/ParikhKadam/bidaf-keras">Bidirectional Attention Flow for Machine Comprehension</a>.
+- Hacked the Admin Panel of GTU Exams website using manual SQLi (and reported it).

@@ -1,9 +1,9 @@
 Machine Learning:
   - Statistical concepts like Mean, Standard Deviations and Gaussian Distributions along with probability theory for algorithms like Naive Bayes and Gaussian Mixture Models.
-  - Advance Mathematical concepts like Convex Optimizations, Quadratic Programming, and Partial Differentiation.
-  - Different architectures of ANNs, Loss functions, Backpropogation and Optimization, Hyperparameter tuning, Regularization and Normalization.
+  - Advance Mathematical concepts like Convex Optimizations, Quadratic Programming, and Partial Differentiation <i>(actually, I reinvented partial differentiation without knowing that it is already invented in high school)</i>.
+  - Different architectures of ANNs, Loss functions, Backpropagation and Optimization, Hyperparameter tuning, Regularization and Normalization.
   - Word2vec, Attention, Encoder-Decoder architectures and several concepts to solve problems in Natural Language Processing.
-  - Object detection, Image classification, Image Segmentation, Face detection and several other solutions in Computer Vision.
+  - Object detection, Image classification, Image Segmentation, Face recognition and several other solutions in Computer Vision.
   - BiDAF, R-NET, S-NET, BERT and few other models as well as datasets in field of NLP.
   - ResNet, Inception, Xception, VGG like models, datasets like PascalVOC, MSCOCO, Imagenet and algorithms of CV such as RCNN, Faster-RCNN and SSD.
   - In short, the basics required to solve any given problem.

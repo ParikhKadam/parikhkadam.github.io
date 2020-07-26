@@ -1,6 +1,14 @@
+- title: H+Tree Database Storage Engine (HDB)
+  type: Professional Project
+  tools_and_technologies: Python, C++, Maridb, InnoDB, CodeStream
+  domains: Data Structures and Algorithms
+  summary: Participated in development and testing of a basic MVCC enabled Transaction supported SQL server in Python as a POC. Going through the large codebase of Mariadb in order to replace the B+Tree data structure with H+Tree. The challenges are understanding and modifying the tightly coupled modules of in-memory and on-disk data structures. Collaborated with and managed the team to use a planned approach, in order to avoid broken code while modifying the coded data structures.
+  start_date: December 2019
+  end_date: Present
+
 - title: Object Detection Meets Knowledge Graphs
-  type: Research based Professional Project
-  tools_and_technologies: Python, TensorFlow,
+  type: Research Paper Implementation (Professional)
+  tools_and_technologies: Python, Numpy, TensorFlow
   domains: Deep Learning, Neural Networks, Data Science
   summary: In this paper, the authors propose a novel framework of knowledge-aware object detection, which enables the integration of external knowledge such as knowledge graphs into any object detection algorithm. It employs the notion of semantic consistency to quantify and generalize knowledge, which improves object detection through a re-optimization process to achieve better consistency with background knowledge.
   start_date: February 2020
@@ -10,47 +18,23 @@
   type: Professional Project
   tools_and_technologies: Python, Java, Django, BeautifulSoup, Grobid
   domains: Data Structures and Algorithms, Deep Learning, Neural Networks, Data Science
-  summary: It is a research paper builder. A simple web based GUI provided to users who are willing to write scientific papers in various different formats like APA, IEEE, etc. It uses a deep learning based approach to extract required data from a paper's PDF and data processing techniques to clean, improve and modify the extracted data. Then, we provide an online editor, which can provide our users a complete interface to writing scientific papers.
+  summary: It is a research paper builder. A simple web based GUI provided to users who are willing to write scientific papers in various different formats like APA, IEEE, etc. Used a deep learning based approach to extract required data from a paper's PDF and data processing techniques to clean, improve and modify the extracted data. Built an online editor, which can provide our users a complete interface to writing scientific papers.
   start_date: December 2019
   end_date: January 2020
 
-- title: H+Tree
+- title: H+Tree V1
   type: Research based Professional Project
   tools_and_technologies: Python, C++, InnoDB, B+Tree
-  domains: Data Structures and Algorithms, Machine Learning, Neural Networks
-  summary: An efficient way of storing data in databases. High speed and less memory (as well as storage) requirements is the main aim of this project. Integrating ML concepts with data storage systems and using bitwise operators is a way of achieving this.
+  domains: Data Structures and Algorithms, Machine Learning, Neural Networks, Data Analytics
+  summary: An efficient way of storing data in databases. High speed and less memory (as well as storage) requirements is the main aim of this project. Implemented Data Science concepts to data structures used in database storage engines. Can't say much.. it's confidential.
   start_date: May 2019
-  end_date: Present
-
-- title: Palpebra Air
-  type: Professional Project
-  tools_and_technologies: Python, TensorFlow, OpenCV, MySQL, FLask
-  domains: Computer Vision, Deep Learning, Neural Networks
-  summary: It's similar to a combination of <a href="https://cloud.google.com/vision/#vision-api-demo">Google's Vision AI</a> and <a href="https://cloud.google.com/video-intelligence/#video-intelligence-api-demo">Google's Video AI</a> with required changes. Made a web-app which takes video/image as an input and records objects in it along with timestamp (if video). A user can then search by using object name(s) and the application will output the video/image and the frame at which object was detected.
-  start_date: March 2019
-  end_date: April 2019
-
-- title: <a href="https://github.com/ParikhKadam/bidaf-keras">Machine Comprehension model for Question Answering using Deep Learning</a>
-  type: Opensource Project
-  tools_and_technologies: Python, Keras, Numpy, NLTK
-  domains: Natural Language Processing, Natural Language Understanding, Deep Learning, Neural Networks.
-  summary: Implemented <a href="https://arxiv.org/abs/1611.01603">Bidirectional Attention Flow for Machine Comprehension</a> in Keras from scratch. Machine comprehension task is answering a query about a given context (paragraph). It requires modeling complex interactions between the passage and the query. Typically this method uses attention mechanism to focus on a small portion of the paragraph and summarize it with a fixed-size vector, couple attentions temporally, and output probability spans for answer start and end.
-  start_date: November 2018
-  end_date: April 2019
-
-- title: <a href="https://github.com/ParikhKadam/mnist-experiments/blob/master/experiment1.ipynb">Achieving high accuracy on modified MNIST dataset</a>
-  type: Creative and Unique Project
-  tools_and_technologies: Python, Keras, Numpy, Matplotlib
-  domains: Neural Networks, Data Processing, Computer Vision, Deep Learning
-  summary: Most of Deep Learning Enginners believe that if we train a CNN on a dataset in which the objects (important patterns) are always in a fixed region in the training set, then the model will perform poorly on images which contains objects in the other regions as it never saw objects in these regions during training. But that's not true. CNNs are capable of detecting patterns in any part of the image and hence, it is possible. So, I did a small experiment to show that. Understanding this, one can tell why pooling layers worked!
-  start_date: August 2019
-  end_date: August 2019
+  end_date: December 2019
 
 - title: ANNs and Model Interpretability
   type: Professional Mini Project
   tools_and_technologies: Python, TensorFlow, Scikit-Learn, Matplotlib, Pandas
-  domains: Machine Learning, Deep Learning, Neural Networks
-  summary: End-to-end task was to interpret what ANNs learn. For this a flight dataset was used which contained various features like date and time, source and destination, number of flights, and much more. Trained various ML models like decision trees and random forests, visualized them and feature importances. Also trained an ANN and used a decision tree trained on the output of ANN in order to interpret what the ANN learned, which features are important to ANN, how much did we advantage by using an ANN over a simple ML model and much more.
+  domains: Machine Learning, Deep Learning, Neural Networks, Data Analysis
+  summary: End-to-end task was to interpret what ANNs learn. For this a flight dataset was used which contained various features like date and time, source and destination, number of flights, and much more. Trained various ML models like decision trees and random forests, and visualized their feature importance graphs. Also trained an ANN and used a decision tree trained on the output of ANN in order to interpret what the ANN learned, which features are important to ANN, how much did we advantage by using an ANN over a simple ML model and much more.
   start_date: November 2019
   end_date: November 2019
 
@@ -58,11 +42,35 @@
   type: Professional Mini Project
   tools_and_technologies: Python, Numpy, Matplotlib
   domains: Neural Networks
-  summary: Wrote neural networks from scratch using numpy and implemented backpropagation using a simple gradient descent optimizer. This project was meant to be a part of training lab and hence visualizing the trained network on datasets was important. Used different datasets like step, one-hump, two-hump, sine and others. Built different models and plotted loss at various steps and finally, plotted y_true vs y_pred.
+  summary: Wrote neural networks from scratch using numpy and implemented backpropagation using a simple gradient descent optimizer. This project was meant to be a part of training lab and hence visualizing the trained network on datasets was important. Used different datasets like step, one-hump, two-hump, sine and others. Built different models and visualized their output via training as well as by manually setting up the weights. Everything was done from scratch using Numpy. 
   start_date: November 2019
   end_date: November 2019
 
-- title: Web Scraper for scraping Google Search results 
+- title: <a href="https://github.com/ParikhKadam/mnist-experiments/blob/master/README.md">Location Invariant Feature Learning in CNN</a>
+  type: Creative and Unique Project
+  tools_and_technologies: Python, Keras, Numpy, Matplotlib
+  domains: Neural Networks, Data Processing, Computer Vision, Deep Learning
+  summary: Most of Deep Learning Enginners believe that if we train a CNN on a dataset in which the objects (important patterns) are always in a fixed region in the training set, then the model will perform poorly on images which contains objects in the other regions as it never saw objects in these regions during training. But that's not true. CNNs are capable of detecting patterns in any part of the image and hence, it is possible. So, I did a small experiment to show that. Understanding this, one can tell why pooling layers worked!
+  start_date: August 2019
+  end_date: August 2019
+
+- title: Palpebra Air
+  type: Professional Project
+  tools_and_technologies: Python, TensorFlow, OpenCV, MySQL, FLask
+  domains: Computer Vision, Deep Learning, Neural Networks
+  summary: Built a graphic search engine. Tha algorithm used is similar to a combination of <a href="https://cloud.google.com/vision/#vision-api-demo">Google's Vision AI</a> and <a href="https://cloud.google.com/video-intelligence/#video-intelligence-api-demo">Google's Video AI</a> with required changes. Made a web-app which takes video/image as an input and records objects in it along with timestamp (if video). A user can then search by using object name(s) and the application will output the video/image and the frame at which object was detected.
+  start_date: March 2019
+  end_date: April 2019
+
+- title: <a href="https://github.com/ParikhKadam/bidaf-keras">Machine Comprehension model for Question Answering using Deep Learning</a>
+  type: Research Paper Implementation (Opensource)
+  tools_and_technologies: Python, Keras, Numpy, NLTK
+  domains: Natural Language Processing, Natural Language Understanding, Deep Learning, Neural Networks.
+  summary: This is my final year project in BE CSE. Implemented <a href="https://arxiv.org/abs/1611.01603">Bidirectional Attention Flow for Machine Comprehension</a> in Keras from scratch. Machine comprehension task is answering a query about a given context (paragraph). It requires modeling complex interactions between the passage and the query. Typically this method uses attention mechanism to focus on a small portion of the paragraph and summarize it with a fixed-size vector, couple attentions temporally, and output probability spans for answer start and end.
+  start_date: November 2018
+  end_date: April 2019
+
+- title: Dynamic Content Scraping from Google 
   type: Mini Project
   tools_and_technologies: Python, BeautifulSoup, NLTK
   domains: Web Scraping
