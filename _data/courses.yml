@@ -1,4 +1,4 @@
-- title: CS231n: Convolutional Neural Networks for Visual Recognition by Justin Johnson
+- title: CS231n - Convolutional Neural Networks for Visual Recognition by Justin Johnson
   provider: Stanford University
   summary: Revised CNNs and basics. Went through several implementations of CNNs such as Autoencoder, VAE, GAN, etc. Also, learnt about how to visualize what CNN learnt, adversial attacks on Neural Networks and concepts of image segmeentation and Deep Reinforcement Learning.
   start_date: 2019
