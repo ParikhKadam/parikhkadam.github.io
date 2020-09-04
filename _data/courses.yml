@@ -1,3 +1,15 @@
+- title: CS231n: Convolutional Neural Networks for Visual Recognition by Justin Johnson
+  provider: Stanford University
+  summary: Revised CNNs and basics. Went through several implementations of CNNs such as Autoencoder, VAE, GAN, etc. Also, learnt about how to visualize what CNN learnt, adversial attacks on Neural Networks and concepts of image segmeentation and Deep Reinforcement Learning.
+  start_date: 2019
+  end_date: 2019
+
+- title: Deep Learning Specialization
+  provider: Coursera
+  summary: The course was intended for a quick revision of all the concepts in Deep Learning. 
+  start_date: 2019
+  end_date: 2019
+
 - title: CS224d - Deep Learning for Natural Language Processing 
   provider: Stanford University
   summary: Learnt word vector representations, window-based neural networks, recurrent neural networks, long-short-term-memory models, recursive neural networks and convolutional neural networks. It taught me embeddings at different levels, architectures of common networks to solve NLP based problems and also gave information about various on-going research topics in NLP.
