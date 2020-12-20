@@ -1,88 +1,171 @@
+# TODO: add sanskrit-ocr
+# TODO: add tasq anomaly-detection
+
+- title: Smart Kitchen
+  type: Professional Project
+  tools_and_technologies: Python, MySQL, Docker, OpenCV, TensorFlow
+  domains: Deep Learning, Image Processing, Operating Systems
+  summary: >
+    In this COVID-19 era, utmost care is needed to be taken in restaurants when cooking food,
+    as cooked food is impossible to sanitize. We built a system which can ensure that maximum care
+    has been taken to prepare food in kitchens of restaurants, hotels, take-aways.
+    Integrated a two stage DL processing pipeline in order to detect if a chef/cook has broken a rule
+    and raise alerts on violation. The system is built to detect if chefs have worn proper attires
+    such as gloves, mask, cap and apron when working in the kitchen using FasterRCNN trained on our manually annotated dataset.
+    This system was also coded to use multi-processing along with multi-threading for making it work in real time.
+  start_date: July 2020
+  end_date: September 2020
+
 - title: H+Tree Database Storage Engine (HDB)
   type: Professional Project
-  tools_and_technologies: Python, C++, Maridb, InnoDB, CodeStream
+  tools_and_technologies: Python, C++, MariaDB, InnoDB, CodeStream, CMake
   domains: Data Structures and Algorithms
-  summary: Participated in development and testing of a basic MVCC enabled Transaction supported SQL server in Python as a POC. Going through the large codebase of Mariadb in order to replace the B+Tree data structure with H+Tree. The challenges are understanding and modifying the tightly coupled modules of in-memory and on-disk data structures. Collaborated with and managed the team to use a planned approach, in order to avoid broken code while modifying the coded data structures.
+  summary: >
+    Guided the team and monitored the development and testing of a MVCC based SQL server (in Python as a POC).
+    The main aim is going through the large codebase of MariaDB (in C++) in order to replace the B+Tree data structure with H+Tree.
+    The challenges are understanding and modifying high number of tightly coupled modules of in-memory and on-disk data structures
+    which are very less documented. Properly planned the project to maintain the speed of development. 
+    Wrote custom unittests and modified the CMake build system to avoid unnecessary errors.
+    Explaining the approach and issues to the team so that they can work with a goal oriented mindset.
   start_date: December 2019
   end_date: Present
 
 - title: Object Detection Meets Knowledge Graphs
   type: Research Paper Implementation (Professional)
   tools_and_technologies: Python, Numpy, TensorFlow
-  domains: Deep Learning, Neural Networks, Data Science
-  summary: In this paper, the authors propose a novel framework of knowledge-aware object detection, which enables the integration of external knowledge such as knowledge graphs into any object detection algorithm. It employs the notion of semantic consistency to quantify and generalize knowledge, which improves object detection through a re-optimization process to achieve better consistency with background knowledge.
+  domains: Deep Learning, Data Science
+  summary: >
+    In this paper, the authors propose an idea to integrate external knowledge into SOTA object detection algorithms, 
+    with a view to re-optimize the output of these models. The main aim was to use semantic knowledge of objects. 
+    For example, table and chair are highly related in the sense that if there is a chair in the image, 
+    then there might be high chances that there is a chair in nearby objects. So, if the model outputs detection of nearby objects 
+    as stand with a probability of `x` and chair with a probability of `y`, then this paper aims at 
+    boosting the probability of chair, as chair is highly related to table as compared to a stand. 
+    A knowledge graph (matrix representation) was created form a large text corpus which was processed to extract similarity of objects. 
+    Then this matrix was used to refine the output of SOTA models through an iterative algorithm.
   start_date: February 2020
   end_date: March 2020
 
 - title: Vergesource
   type: Professional Project
-  tools_and_technologies: Python, Java, Django, BeautifulSoup, Grobid
-  domains: Data Structures and Algorithms, Deep Learning, Neural Networks, Data Science
-  summary: It is a research paper builder. A simple web based GUI provided to users who are willing to write scientific papers in various different formats like APA, IEEE, etc. Used a deep learning based approach to extract required data from a paper's PDF and data processing techniques to clean, improve and modify the extracted data. Built an online editor, which can provide our users a complete interface to writing scientific papers.
+  tools_and_technologies: Python, Regex, Java, Django, BeautifulSoup, Grobid
+  domains: Data Structures and Algorithms, Deep Learning, Data Science, Web Development
+  summary: >
+    It is a research paper builder, a simple web based GUI provided to users who are willing to write scientific papers
+    in various different formats like APA, IEEE, etc. Used Grobid server to extract required data from a paper's PDF and
+    used regex with other data processing techniques to clean, improve and modify the extracted data.
+    Key features included parsing already written paper, writing a new one, recommending citations and linking them,
+    and providing the output in various different paper formats.
+    Built a simplistic user interface, which can provide our users with a complete solution to writing scientific papers.
   start_date: December 2019
   end_date: January 2020
 
 - title: H+Tree V1
   type: Research based Professional Project
   tools_and_technologies: Python, C++, InnoDB, B+Tree
-  domains: Data Structures and Algorithms, Machine Learning, Neural Networks, Data Analytics
-  summary: An efficient way of storing data in databases. High speed and less memory (as well as storage) requirements is the main aim of this project. Implemented Data Science concepts to data structures used in database storage engines. Can't say much.. it's confidential.
+  domains: Data Structures and Algorithms, Machine Learning, Data Analytics
+  summary: >
+    H+Tree is an efficient way of storing data in databases.
+    High speed and less memory (as well as storage) requirements is the main aim of this data structure.
+    Implemented data science concepts with data structures used in database storage engines.
+    Developed and tested a 2x faster algorithm in Python and helped the team with implementation and debugging
+    of the same algorithm in C++. Can't say much.. it's confidential.
   start_date: May 2019
   end_date: December 2019
 
 - title: ANNs and Model Interpretability
   type: Professional Mini Project
   tools_and_technologies: Python, TensorFlow, Scikit-Learn, Matplotlib, Pandas
-  domains: Machine Learning, Deep Learning, Neural Networks, Data Analysis
-  summary: End-to-end task was to interpret what ANNs learn. For this a flight dataset was used which contained various features like date and time, source and destination, number of flights, and much more. Trained various ML models like decision trees and random forests, and visualized their feature importance graphs. Also trained an ANN and used a decision tree trained on the output of ANN in order to interpret what the ANN learned, which features are important to ANN, how much did we advantage by using an ANN over a simple ML model and much more.
+  domains: Machine Learning, Deep Learning, Data Analysis
+  summary: >
+    End-to-end task was to interpret what ANNs learn. For this a flight dataset was used which contained various
+    features like date and time, source and destination, number of flights, and much more.
+    Trained various ML models like decision trees and random forests, and visualized their feature importance graphs.
+    Also trained an ANN and used a decision tree trained on the output of ANN in order to interpret what the ANN learned,
+    which features are important to the ANN, how much did we advantage by using an ANN over a simple ML model and much more.
   start_date: November 2019
   end_date: November 2019
 
 - title: Artificial Neural Networks in Numpy
   type: Professional Mini Project
   tools_and_technologies: Python, Numpy, Matplotlib
-  domains: Neural Networks
-  summary: Wrote neural networks from scratch using numpy and implemented backpropagation using a simple gradient descent optimizer. This project was meant to be a part of training lab and hence visualizing the trained network on datasets was important. Used different datasets like step, one-hump, two-hump, sine and others. Built different models and visualized their output via training as well as by manually setting up the weights. Everything was done from scratch using Numpy. 
+  domains: Deep Learning, Data Analysis
+  summary: >
+    Wrote neural networks from scratch using numpy and implemented backpropagation using a simple gradient descent optimizer.
+    This project was meant to be a part of training lab for others and hence visualizing the trained network on datasets
+    was important. Used different datasets like step, one-hump, two-hump, sine and others to manually find the distribution function.
+    Built and trained different models and visualized their output via training as well as by manually setting up the weights.
+    Everything was done from scratch using Numpy. 
   start_date: November 2019
   end_date: November 2019
 
-- title: <a href="https://github.com/ParikhKadam/mnist-experiments/blob/master/README.md">Location Invariant Feature Learning in CNN</a>
-  type: Creative and Unique Project
+- title: <a href="https://github.com/ParikhKadam/mnist-experiments/blob/master/experiment1.ipynb">Location Invariant Feature Learning in CNN</a>
+  type: Experiment out of Curiosity
   tools_and_technologies: Python, Keras, Numpy, Matplotlib
-  domains: Neural Networks, Data Processing, Computer Vision, Deep Learning
-  summary: Most of Deep Learning Enginners believe that if we train a CNN on a dataset in which the objects (important patterns) are always in a fixed region in the training set, then the model will perform poorly on images which contains objects in the other regions as it never saw objects in these regions during training. But that's not true. CNNs are capable of detecting patterns in any part of the image and hence, it is possible. So, I did a small experiment to show that. Understanding this, one can tell why pooling layers worked!
+  domains: Data Processing, Computer Vision, Deep Learning
+  summary: >
+    Most of Deep Learning Engineers believe that if we train a CNN on a dataset in which the objects
+    (important patterns) are always in a fixed region in the training set,
+    then the model will perform poorly on images which contains objects in the other regions,
+    as it never saw objects in these regions during training. But that's not true.
+    CNNs are capable of detecting patterns in any part of the image and hence, it is possible.
+    So, I did a small experiment to show that. Understanding this, one can tell why pooling layers are important!
   start_date: August 2019
   end_date: August 2019
 
 - title: Palpebra Air
   type: Professional Project
   tools_and_technologies: Python, TensorFlow, OpenCV, MySQL, FLask
-  domains: Computer Vision, Deep Learning, Neural Networks
-  summary: Built a graphic search engine. Tha algorithm used is similar to a combination of <a href="https://cloud.google.com/vision/#vision-api-demo">Google's Vision AI</a> and <a href="https://cloud.google.com/video-intelligence/#video-intelligence-api-demo">Google's Video AI</a> with required changes. Made a web-app which takes video/image as an input and records objects in it along with timestamp (if video). A user can then search by using object name(s) and the application will output the video/image and the frame at which object was detected.
+  domains: Computer Vision, Deep Learning, Web Development
+  summary: >
+    Built a graphic search engine using object detection.
+    The algorithm used is similar to a combination of
+    <a href="https://cloud.google.com/vision/#vision-api-demo">Google's Vision AI</a>
+    and <a href="https://cloud.google.com/video-intelligence/#video-intelligence-api-demo">Google's Video AI</a>
+    with required changes.
+    Made a web-app which takes video/image as an input and records objects in it along with timestamp (if video).
+    A user can then search by using object name(s) and the application will output the video/image and
+    the frame at which object was detected.
   start_date: March 2019
   end_date: April 2019
 
 - title: <a href="https://github.com/ParikhKadam/bidaf-keras">Machine Comprehension model for Question Answering using Deep Learning</a>
-  type: Research Paper Implementation (Opensource)
+  type: Research Paper Implementation (OpenSource)
   tools_and_technologies: Python, Keras, Numpy, NLTK
-  domains: Natural Language Processing, Natural Language Understanding, Deep Learning, Neural Networks.
-  summary: This is my final year project in BE CSE. Implemented <a href="https://arxiv.org/abs/1611.01603">Bidirectional Attention Flow for Machine Comprehension</a> in Keras from scratch. Machine comprehension task is answering a query about a given context (paragraph). It requires modeling complex interactions between the passage and the query. Typically this method uses attention mechanism to focus on a small portion of the paragraph and summarize it with a fixed-size vector, couple attentions temporally, and output probability spans for answer start and end.
+  domains: Natural Language Processing, Natural Language Understanding, Deep Learning
+  summary: >
+    This is my final year project in BE CSE.
+    Implemented <a href="https://arxiv.org/abs/1611.01603">Bidirectional Attention Flow for Machine Comprehension</a>
+    in Keras from scratch. Machine comprehension task is answering a query about a given context (paragraph).
+    It requires modeling complex interactions between the passage and the query.
+    It uses attention mechanism to focus on a small portion of the paragraph and summarize it with a fixed-size vector,
+    couple attentions temporally, and output probability spans for answer start and end.
+    We started developing this project only with an idea to implement with zero knowledge of Machine Learning. Though,
+    we learned NL, DL, NLP and CV, and were able to implement and train the model, and make it work just within 8 months.
   start_date: November 2018
   end_date: April 2019
 
-- title: Dynamic Content Scraping from Google 
+- title: Adaptive Content Scraping from Google 
   type: Mini Project
   tools_and_technologies: Python, BeautifulSoup, NLTK
   domains: Web Scraping
-  summary: Built a scraping application which can scrape Google search results for a particular query provided by the user. It is able to extract title, url and text from search results. Not only that, but I also added a simple algorithm which is capable of extracting data even if the structure of webpage changes. Hence, the application is able to handle the page structure dynamically.
+  summary: >
+    Built a scraping application which can scrape Google search results for a particular query provided by the user.
+    It is able to extract title, url and text from search results. Not only that, but I also added a simple algorithm
+    which is capable of extracting data even if the structure of webpage changes in future.
+    Hence, the application is able to adapt to the change in the result's page structure.
   start_date: May 2019
   end_date: May 2019
 
 - title: Sentiment analysis on IMDB reviews dataset
   type: Mini Project
   tools_and_technologies: Python, Keras
-  domains: Natural Language Processing, Deep Learning, Neural Networks
-  summary: The task included developing neural network architectures based on supervised learning which could learn from the input data to predict whether the review was positive or negative. I developed two different architectures and compared them on the dataset. One was a simple Deep Dense neural network while the other was a RNN architecture. Obviously, the RNN performed better.
+  domains: Natural Language Processing, Deep Learning
+  summary: >
+    The task included developing neural network architectures based on supervised learning
+    which could learn from the input data to predict whether the review was positive or negative.
+    I developed two different architectures and compared them on the dataset.
+    One was a simple Deep Dense neural network while the other was a RNN architecture. Obviously, the RNN performed better.
   start_date: October 2018
   end_date: October 2018
 
@@ -90,6 +173,10 @@
   type: Team Project
   tools_and_technologies: Core PHP, HTML, CSS, Bootstrap, Javascript, MariaDB
   domains: Web Development, Web Design, Database Design and Management
-  summary: A website similar to <a href="https://linkedin.com">LinkedIn</a> but specialized for ITI students and professionals.
+  summary: >
+    A website similar to <a href="https://linkedin.com">LinkedIn</a> but specialized for ITI students and professionals.
+    We, as a team, developed a job portal using core PHP, Bootstrap and JQuery. The project was aimed to help us learn the
+    concepts of web development and security i.e. data transmission, session management, password hashing and salt,
+    implementing access control mechanisms and such.
   start_date: November 2017
   end_date: March 2018

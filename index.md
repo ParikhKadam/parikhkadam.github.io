@@ -3,14 +3,15 @@ title: Kadam Parikh
 layout: default
 sections:
     - about
+    - skills
+    - projects
     - experience
     - education
-    - skills
-    - knowledge
-    - projects
+    # - knowledge
     - courses
-    - interests
     - achievements
+    - certifications
     - literature
+    - interests
     # - future plans
 ---
