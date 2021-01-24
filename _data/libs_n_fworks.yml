@@ -1,19 +1,19 @@
 - Numpy
-- Scipy
-- Scikit Learn
 - Pandas
 - Matplotlib
+- Keras
+- Scipy
+- Scikit Learn
+- TensorFlow 2.0
+- NLTK
+- OpenCV
+- Stanford CoreNLP
+- Flask
+- Django
 - Seaborn
 - BeautifulSoup
 - Selenium
-- Keras
-- TensorFlow 2.0
 - PyTorch
-- NLTK
-- Stanford CoreNLP
-- OpenCV
-- Flask
-- Django
 - Vue.js
 - Express
 - Vuetify

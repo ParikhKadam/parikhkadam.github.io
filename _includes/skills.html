@@ -29,12 +29,11 @@
 
   </ul>
 
-  <hr/>  
-  <br/>
+  <hr/>
   
-  <span class="lead" style="font-weight: bold;">Technical Skills:</span>
+  <span class="lead" style="font-weight: bold;">Machine Learning:</span>
   <ul class="fa-ul mb-0">
-    {%- for skill in skills['Technical Skills'] -%}
+    {%- for skill in skills['Machine Learning'] -%}
     <li>
       <i class="fa-li fa fa-plus-circle text-success"></i>
       <span class="lead">{{ skill }}</span>
@@ -42,7 +41,18 @@
     {%- endfor -%}
   </ul>
 
-  </br>
+  <br/>
+  <span class="lead" style="font-weight: bold;">Software Engineering:</span>
+  <ul class="fa-ul mb-0">
+    {%- for skill in skills['Software Engineering'] -%}
+    <li>
+      <i class="fa-li fa fa-plus-circle text-success"></i>
+      <span class="lead">{{ skill }}</span>
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  <br/>
   <span class="lead" style="font-weight: bold;">Soft Skills:</span>
   <ul class="fa-ul mb-0">
     {%- for skill in skills['Soft Skills'] -%}

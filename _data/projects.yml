@@ -1,5 +1,23 @@
 # TODO: add sanskrit-ocr
-# TODO: add tasq anomaly-detection
+- title: Tasq Anomaly Detection
+  type: Professional Project
+  tools_and_technologies: Python, Pandas, NumPy, SciPy, DTW Distance, Typescript, Node.js, Vue.js, Vuetify, Express.js, REST, AWS SDK
+  domains: Big Data, Data Analysis, Machine Learning, Web Designing and Development
+  summary: >
+    Tasq is an AI based approach to detect anomalies (unusual/unexpected patterns) that occur in
+    the working process of oil/gas wells. It requires an infrastructure to work which consists
+    of multiple sensors attached to the wells and transmitting live data to the cloud.
+    This system helps in monitoring the whole process end-to-end based on the data received from sensors.
+    Periodically trained clustering models (unsupervised), as getting labelled data of this
+    huge amount of timeseries data (sensor readings) is a cumbersome process.
+    Conducted analysis of data and tried different tweaks which proved useful for improving accuracy.
+    Integrated users' feedback into the clustering algorithm with which
+    we got a boost in accuracy of about 10% (AKA task optimized clustering)
+    Also, built an easy to use dashboard for this large ecosystem which is capable of
+    combining data from all over from this distributed system and display it at a single place,
+    and let users (analysts) interact with it.
+  start_date: October 2020
+  end_date: January 2021
 
 - title: Smart Kitchen
   type: Professional Project
@@ -12,36 +30,34 @@
     Integrated a two stage DL processing pipeline in order to detect if a chef/cook has broken a rule
     and raise alerts on violation. The system is built to detect if chefs have worn proper attires
     such as gloves, mask, cap and apron when working in the kitchen using FasterRCNN trained on our manually annotated dataset.
-    This system was also coded to use multi-processing along with multi-threading for making it work in real time.
+    This system also utilizes the power of parallel processing for making it work in real time.
   start_date: July 2020
-  end_date: September 2020
+  end_date: October 2020
 
 - title: H+Tree Database Storage Engine (HDB)
   type: Professional Project
   tools_and_technologies: Python, C++, MariaDB, InnoDB, CodeStream, CMake
   domains: Data Structures and Algorithms
   summary: >
-    Guided the team and monitored the development and testing of a MVCC based SQL server (in Python as a POC).
-    The main aim is going through the large codebase of MariaDB (in C++) in order to replace the B+Tree data structure with H+Tree.
+    The main aim is to replace the B+Tree data structure with H+Tree in large codebase of MariaDB (in C++).
     The challenges are understanding and modifying high number of tightly coupled modules of in-memory and on-disk data structures
     which are very less documented. Properly planned the project to maintain the speed of development. 
+    Guide the team and monitor the development and testing of a MVCC based SQL server (in Python as a POC).
     Wrote custom unittests and modified the CMake build system to avoid unnecessary errors.
     Explaining the approach and issues to the team so that they can work with a goal oriented mindset.
+    The main issues which we faced was that some logic that was used in B+Tree would not work the same in H+Tree.
+    Conduct periodic meetings with the team to understand such issues and provide possible solutions.
   start_date: December 2019
   end_date: Present
 
 - title: Object Detection Meets Knowledge Graphs
   type: Research Paper Implementation (Professional)
-  tools_and_technologies: Python, Numpy, TensorFlow
+  tools_and_technologies: Python, NumPy, TensorFlow
   domains: Deep Learning, Data Science
   summary: >
     In this paper, the authors propose an idea to integrate external knowledge into SOTA object detection algorithms, 
-    with a view to re-optimize the output of these models. The main aim was to use semantic knowledge of objects. 
-    For example, table and chair are highly related in the sense that if there is a chair in the image, 
-    then there might be high chances that there is a chair in nearby objects. So, if the model outputs detection of nearby objects 
-    as stand with a probability of `x` and chair with a probability of `y`, then this paper aims at 
-    boosting the probability of chair, as chair is highly related to table as compared to a stand. 
-    A knowledge graph (matrix representation) was created form a large text corpus which was processed to extract similarity of objects. 
+    with a view to re-optimize the output of these models. The main aim is to use semantic knowledge of objects to improve detection. 
+    A knowledge graph (matrix representation) was built from a large text corpus which was processed to extract similarity of objects. 
     Then this matrix was used to refine the output of SOTA models through an iterative algorithm.
   start_date: February 2020
   end_date: March 2020
@@ -51,12 +67,12 @@
   tools_and_technologies: Python, Regex, Java, Django, BeautifulSoup, Grobid
   domains: Data Structures and Algorithms, Deep Learning, Data Science, Web Development
   summary: >
-    It is a research paper builder, a simple web based GUI provided to users who are willing to write scientific papers
-    in various different formats like APA, IEEE, etc. Used Grobid server to extract required data from a paper's PDF and
-    used regex with other data processing techniques to clean, improve and modify the extracted data.
-    Key features included parsing already written paper, writing a new one, recommending citations and linking them,
+    It is a research paper builder, a simple web based UI provided to users who are willing to write scientific papers
+    in various different formats like APA, IEEE, etc.
+    Key features include parsing already written paper, writing a new one, recommending citations and linking them,
     and providing the output in various different paper formats.
-    Built a simplistic user interface, which can provide our users with a complete solution to writing scientific papers.
+    Used Grobid server to extract data and it's metadata from a paper's PDF and
+    used regex with other data processing techniques to clean, improve and modify the extracted data.
   start_date: December 2019
   end_date: January 2020
 
@@ -67,41 +83,35 @@
   summary: >
     H+Tree is an efficient way of storing data in databases.
     High speed and less memory (as well as storage) requirements is the main aim of this data structure.
-    Implemented data science concepts with data structures used in database storage engines.
+    Currently, the storage engine being used widely in database servers is InnoDB which used B+Tree as it's data structure to store data internally.
+    H+Tree aims at optimizing the internal B+Tree module of database storage systems 
+    in order to have a new storage system which is faster and more storage efficient.
+    Researched for the possible places of optimizations in B+Tree by understanding it's working with the user's data.
+    Developed few different variations of H+Tree and took benchmarks for comparison with B+Tree.
+    Analysed the tree structure with stored data to find possible issues in those different variations.
     Developed and tested a 2x faster algorithm in Python and helped the team with implementation and debugging
-    of the same algorithm in C++. Can't say much.. it's confidential.
+    of the same algorithm in C++.
   start_date: May 2019
   end_date: December 2019
 
-- title: ANNs and Model Interpretability
+- title: Artificial Neural Networks and Interpretability
   type: Professional Mini Project
-  tools_and_technologies: Python, TensorFlow, Scikit-Learn, Matplotlib, Pandas
+  tools_and_technologies: Python, TensorFlow, Scikit-Learn, Matplotlib, Pandas, NumPy
   domains: Machine Learning, Deep Learning, Data Analysis
   summary: >
-    End-to-end task was to interpret what ANNs learn. For this a flight dataset was used which contained various
-    features like date and time, source and destination, number of flights, and much more.
-    Trained various ML models like decision trees and random forests, and visualized their feature importance graphs.
-    Also trained an ANN and used a decision tree trained on the output of ANN in order to interpret what the ANN learned,
-    which features are important to the ANN, how much did we advantage by using an ANN over a simple ML model and much more.
-  start_date: November 2019
-  end_date: November 2019
-
-- title: Artificial Neural Networks in Numpy
-  type: Professional Mini Project
-  tools_and_technologies: Python, Numpy, Matplotlib
-  domains: Deep Learning, Data Analysis
-  summary: >
-    Wrote neural networks from scratch using numpy and implemented backpropagation using a simple gradient descent optimizer.
-    This project was meant to be a part of training lab for others and hence visualizing the trained network on datasets
-    was important. Used different datasets like step, one-hump, two-hump, sine and others to manually find the distribution function.
+    This project was meant to be a part of training lab for others and hence visualizing the trained network on datasets was important.
+    End-to-end task was to interpret what ANNs learn.
+    Wrote neural networks from scratch using NumPy and implemented backpropagation using a simple gradient descent optimizer.
     Built and trained different models and visualized their output via training as well as by manually setting up the weights.
-    Everything was done from scratch using Numpy. 
+    Trained various ML models like decision trees and random forests, and visualized their feature importance graphs.
+    Used a decision tree trained on the output of an ANN in order to interpret what the ANN learnt,
+    which features are important to the ANN, how much did we advantage by using an ANN over a simple ML model.
   start_date: November 2019
   end_date: November 2019
 
 - title: <a href="https://github.com/ParikhKadam/mnist-experiments/blob/master/experiment1.ipynb">Location Invariant Feature Learning in CNN</a>
   type: Experiment out of Curiosity
-  tools_and_technologies: Python, Keras, Numpy, Matplotlib
+  tools_and_technologies: Python, Keras, NumPy, Matplotlib
   domains: Data Processing, Computer Vision, Deep Learning
   summary: >
     Most of Deep Learning Engineers believe that if we train a CNN on a dataset in which the objects
@@ -119,29 +129,29 @@
   domains: Computer Vision, Deep Learning, Web Development
   summary: >
     Built a graphic search engine using object detection.
-    The algorithm used is similar to a combination of
-    <a href="https://cloud.google.com/vision/#vision-api-demo">Google's Vision AI</a>
-    and <a href="https://cloud.google.com/video-intelligence/#video-intelligence-api-demo">Google's Video AI</a>
-    with required changes.
-    Made a web-app which takes video/image as an input and records objects in it along with timestamp (if video).
-    A user can then search by using object name(s) and the application will output the video/image and
-    the frame at which object was detected.
+    The system is built for content creators. One daily task of content creators is looking at the variety of samples
+    to gain an understanding and uniqueness of their task. It is a graphic search engine where the user can search for
+    various entities and the system will return all the images/videos that contain these entities.
+    The system works in two phases. At first, the user provides several images/videos for processing.
+    Then the system processes this data and stores the extracted information in database.
+    Now, the user can search for entities.
   start_date: March 2019
   end_date: April 2019
 
 - title: <a href="https://github.com/ParikhKadam/bidaf-keras">Machine Comprehension model for Question Answering using Deep Learning</a>
   type: Research Paper Implementation (OpenSource)
-  tools_and_technologies: Python, Keras, Numpy, NLTK
+  tools_and_technologies: Python, Keras, NumPy, NLTK
   domains: Natural Language Processing, Natural Language Understanding, Deep Learning
   summary: >
     This is my final year project in BE CSE.
     Implemented <a href="https://arxiv.org/abs/1611.01603">Bidirectional Attention Flow for Machine Comprehension</a>
-    in Keras from scratch. Machine comprehension task is answering a query about a given context (paragraph).
-    It requires modeling complex interactions between the passage and the query.
+    in Keras from scratch. Machine comprehension is a task of answering a question from a given paragraph.
     It uses attention mechanism to focus on a small portion of the paragraph and summarize it with a fixed-size vector,
     couple attentions temporally, and output probability spans for answer start and end.
-    We started developing this project only with an idea to implement with zero knowledge of Machine Learning. Though,
-    we learned NL, DL, NLP and CV, and were able to implement and train the model, and make it work just within 8 months.
+    Learnt all the concepts of Machine Learning and Deep Learning with some expertise in Natural Language Processing.
+    Dissected the paper for thoroughly understanding the mathematics behind it's intuitive logic.
+    Learnt Keras with a hands-on and implemented the basic model.
+    Added several features which provides flexibility for others using this project, and all this was done within just one year.
   start_date: November 2018
   end_date: April 2019
 
@@ -172,7 +182,7 @@
 - title: ITI Job Portal
   type: Team Project
   tools_and_technologies: Core PHP, HTML, CSS, Bootstrap, Javascript, MariaDB
-  domains: Web Development, Web Design, Database Design and Management
+  domains: Web Designing and Development, Database Design and Management
   summary: >
     A website similar to <a href="https://linkedin.com">LinkedIn</a> but specialized for ITI students and professionals.
     We, as a team, developed a job portal using core PHP, Bootstrap and JQuery. The project was aimed to help us learn the

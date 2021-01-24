@@ -1,17 +1,42 @@
 - role: Software Engineer
   company: F(x) Data Labs Pvt. Ltd.
-  work: While most of the day-to-day tasks are same, increased responsibilities include conducting research in order to properly plan the project, working as project lead, guiding teams, collaborating with other programmers to design well-organized, optimized, and documented source code, enhancing applications by identifying opportunities for improvement, making recommendations and designing and implementing systems, and handling client communications.
+  work: 
+  - Work with product managers to formulate the data analytics problem.
+  - Conduct prior research in order to properly plan the project.
+  - Provide leadership and guidance to the team and take responsibility for the results of teamwork.
+  - Enhancing applications by identifying opportunities for improvement.
+  - Making recommendations in design and implementing systems.
+  - Handling client communications.
+  - Apply machine learning and data science techniques and design distributed systems.
+  - Integrate in-house applications with various vendor software platforms.
+  - Help identify and drive improvements in the team’s software development practices.
+  - Assume ownership over certain components and continuously work to improve them.
+  - Conducting code reviews and interviews is also a part of my work.
+  - Analyze large and complex data sets to derive valuable insights.
+  - Research and implement best practices to enhance existing machine learning infrastructure.
   start_date: March 2020
   end_date: Present
 
 - role: Associate Software Engineer
   company: F(x) Data Labs Pvt. Ltd.
-  work: Responsibilities include all the tasks of software engineering i.e. from requirement gathering to deploying. Developing logic and implementing machine/deep learning techniques to solve problems, writing and implementing new algorithms with a view to improve the legacy systems, using technologies like Tensorflow, Keras and integrating ML systems to develop a ML solution to the problem. Writing unittests, profiling the code and optimizing it, conducting code reviews and interviews is also a part of my work.
+  work: 
+  - Software development activities such as design, coding, debugging, and unit testing for various components.
+  - Gaining the right understanding of the amount and scope of assigned work.
+  - Completing the assigned tasks within the constraints of scope, quality, time and cost.
+  - Develop custom data models and algorithms with a view to improve the legacy systems.
+  - Code profiling and optimization.
+  - Participate in backlog estimation & project planning activities.
+  - Proactively communicate and collaborate with other team members.
+  - Build processes and tools to help monitor and analyze performance and data accuracy
+  - Improve existing machine learning models.
   start_date: February 2019
   end_date: February 2020
 
 - role: <a href="https://libraryofhacks.blogspot.com">Content Writer -- Cyber Security</a>
   company: Blogger
-  work: Understanding networking, various types of attacks, defensive measures and writing them in a very simple language. Explaining the concepts of network protocols, switching and routing, firewalls, proxy and VPNs, TOR, ransomwares and much more. Practicing things when possible. Learned a lot and implemented a few.
+  work: 
+  - Understanding networking, various types of attacks, defensive measures and writing them in a very simple language.
+  - Explaining the concepts of network protocols, switching and routing, firewalls, proxy and VPNs, TOR, ransomwares and much more.
+  - Practicing things when possible. Learned a lot and implemented a few.
   start_date: January 2017
   end_date: January 2019

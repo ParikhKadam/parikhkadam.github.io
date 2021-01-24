@@ -8,7 +8,11 @@
     <div class="resume-content">
       <h3 class="mb-0">{{ exp.role }}</h3>
       <div class="subheading mb-3">{{ exp.company }}</div>
-      <p class="lead">{{ exp.work }}</p>
+      <ul>
+        {% for exp in exp.work %}
+          <li class="lead">{{ exp }}</li>
+        {% endfor %}
+      </ul>
     </div>
     <div class="resume-date text-md-right">
       <span class="lead text-primary">{{ exp.start_date }} - {{ exp.end_date }}</span>
