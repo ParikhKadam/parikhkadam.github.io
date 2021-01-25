@@ -11,8 +11,8 @@
     Periodically trained clustering models (unsupervised), as getting labelled data of this
     huge amount of timeseries data (sensor readings) is a cumbersome process.
     Conducted analysis of data and tried different tweaks which proved useful for improving accuracy.
-    Integrated users' feedback into the clustering algorithm with which
-    we got a boost in accuracy of about 10% (AKA task optimized clustering)
+    Integrated users' feedback into the core detection algorithm with which
+    we got a boost in accuracy of about 10%.
     Also, built an easy to use dashboard for this large ecosystem which is capable of
     combining data from all over from this distributed system and display it at a single place,
     and let users (analysts) interact with it.
