@@ -1,4 +1,8 @@
-# TODO: add sanskrit-ocr
+- AI Powered Resume Screener
+- Entropy
+- GMR Engery Market Price Prediction
+- Bitcoin Casino Fraud Detection
+- Sanskrit OCR
 - title: Tasq Anomaly Detection
   type: Professional Project
   tools_and_technologies: Python, Pandas, NumPy, SciPy, DTW Distance, Typescript, Node.js, Vue.js, Vuetify, Express.js, REST, AWS SDK
@@ -155,7 +159,7 @@
   start_date: November 2018
   end_date: April 2019
 
-- title: Adaptive Content Scraping from Google 
+- title: Adaptive Content Scraping from Google
   type: Mini Project
   tools_and_technologies: Python, BeautifulSoup, NLTK
   domains: Web Scraping
