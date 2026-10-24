@@ -4,6 +4,28 @@
           function gtag() { dataLayer.push(arguments); }
           gtag("js", new Date());
           gtag("config", GA_MEASUREMENT_ID);
+
+          // Click events (one delegated listener). Names are GA4 custom events:
+          // contact_email_click, linkedin_click, github_click,
+          // certification_click, project_click.
+          document.addEventListener("click", function (e) {
+            var a = e.target instanceof Element ? e.target.closest("a[href]") : null;
+            if (!a) return;
+            var where = a.closest(".site-header") ? "header"
+              : a.closest(".site-footer") ? "footer"
+              : (a.closest("section[id]") || {}).id || "main";
+            var name = null;
+            var params = { link_location: where, page_path: location.pathname };
+            if (a.protocol === "mailto:") name = "contact_email_click";
+            else if (a.hostname.endsWith("linkedin.com")) name = "linkedin_click";
+            else if (a.hostname === "github.com") name = "github_click";
+            else if (a.hostname.endsWith("credly.com") || a.hostname === "learn.microsoft.com") name = "certification_click";
+            else if (a.hostname === location.hostname) {
+              var m = a.pathname.match(/^\/projects\/([^/]+)\/?$/);
+              if (m) { name = "project_click"; params.project_slug = m[1]; }
+            }
+            if (name) { params.transport_type = "beacon"; gtag("event", name, params); }
+          });
         })();</script><link rel="stylesheet" href="/_astro/Base.C1ZbiUNQ.css"></head><body><div class="read-progress" aria-hidden="true"></div><a class="skip" href="#main">Skip to content</a><header class="site-header"><div class="container od-row bar"><a class="brand" href="/">Kadam Parikh</a><button class="icon-btn nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><svg class="od-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg></button><nav class="site-nav" id="site-nav" aria-label="Primary"><a href="/">Home</a><a href="/projects/" aria-current="page">Projects</a><a href="/about/">About</a></nav><button class="icon-btn" type="button" data-theme-toggle aria-pressed="false" aria-label="Switch theme"><svg class="od-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9 7 7 0 0 1-9-9z"></path></svg></button></div></header><main id="main"><div class="page-head"><div class="container"><div class="stack"><p class="crumb"><a href="/projects/">Projects</a> / Led · Team project</p><h1>Vāṇī: a voice AI engine where every part swaps</h1><p class="muted">Internal R&amp;D · Evaluation in progress</p><aside class="credit" aria-label="Credit"><p class="eyebrow">Credit</p><p>Built by a small AI/ML team. I was the lead engineer. This case study describes what the team built and does not split the work between us.</p></aside></div></div></div><div class="container" style="padding-bottom: var(--sp-7)"><article class="prose wide-prose"><p class="lede">Most voice bots feel like a walkie-talkie: talk, wait, reply, wait. Vāṇī (Sanskrit for “voice”) is built to feel like a conversation: you can talk over it and it stops and listens, and it starts following you before you finish a sentence. The same engine runs in the cloud or fully offline.</p><h2>The bet: every part is a socket</h2><p>Most teams pick one speech-to-text vendor, one language model and one voice, and build the product around that choice. Change your mind later and it is a rewrite. Vāṇī treats each step as a socket. Any vendor’s tool that fits plugs in, and the part running the conversation never needs to know which. A vendor registers with one line, and a settings file picks who fills each socket:</p><pre><code>@register("tts", "kokoro")
 class KokoroTTS(TTSBase): ...
 
