@@ -1,0 +1,30 @@
+# Kadam Parikh
+
+> Lead AI/ML Engineer based in Ahmedabad, India. Turns LLM prototypes into systems teams can trust: evaluation, document intelligence, voice AI and multi-agent systems. Currently Lead Engineer (AI/ML) at Simform Solutions; career in machine learning since 2019. Open to forward deployed and customer-facing AI engineering roles.
+
+Client names are withheld, so case studies describe what was built and how it was measured. Projects built by teams Kadam led are marked "Led".
+
+## Main pages
+
+- [Home](https://parikhkadam.github.io/): overview and focus areas
+- [About](https://parikhkadam.github.io/about/): experience, skills, education and certifications
+- [Projects](https://parikhkadam.github.io/projects/): all case studies
+
+## Case studies
+
+- [Measuring an LLM insight pipeline instead of trusting it](https://parikhkadam.github.io/projects/customer-insight-pipeline/)
+- [Comparing insurance policies clause by clause](https://parikhkadam.github.io/projects/insurance-policy-comparison/)
+- [Reading ancient handwritten Sanskrit manuscripts](https://parikhkadam.github.io/projects/handwritten-sanskrit-ocr/)
+- [Teaching a small model to say "I don't know"](https://parikhkadam.github.io/projects/specsense-small-model/)
+- [Vāṇī: a voice AI engine where every part swaps](https://parikhkadam.github.io/projects/vani-voice-ai-engine/)
+- [Plan, don't generate: an AI that directs a video but never builds it](https://parikhkadam.github.io/projects/canvas-motion-plan-dont-generate/)
+- [Persona architecture for creator AI clones](https://parikhkadam.github.io/projects/ai-clone-platform/)
+- [Making live trading and backtests run the same code](https://parikhkadam.github.io/projects/algorithmic-trading-platform/)
+- [Forecasting next-day electricity prices on the IEX](https://parikhkadam.github.io/projects/iex-price-forecasting/)
+- [Reproducing a landmark question-answering model (BiDAF)](https://parikhkadam.github.io/projects/question-answering-bidaf/)
+
+## Elsewhere
+
+- [LinkedIn](https://www.linkedin.com/in/kadam-parikh/)
+- [GitHub](https://github.com/parikhKadam)
+- Contact: kadamparikh.ai@gmail.com
