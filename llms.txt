@@ -9,6 +9,7 @@ Client names are withheld, so case studies describe what was built and how it wa
 - [Home](https://parikhkadam.github.io/): overview and focus areas
 - [About](https://parikhkadam.github.io/about/): experience, skills, education and certifications
 - [Projects](https://parikhkadam.github.io/projects/): all case studies
+- [Blogs](https://parikhkadam.github.io/blogs/): explanations of how AI systems work
 
 ## Case studies
 
@@ -22,6 +23,10 @@ Client names are withheld, so case studies describe what was built and how it wa
 - [Making live trading and backtests run the same code](https://parikhkadam.github.io/projects/algorithmic-trading-platform/)
 - [Forecasting next-day electricity prices on the IEX](https://parikhkadam.github.io/projects/iex-price-forecasting/)
 - [Reproducing a landmark question-answering model (BiDAF)](https://parikhkadam.github.io/projects/question-answering-bidaf/)
+
+## Blogs
+
+- [Interior Design with AI: Why It Changes Your Room’s Structure](https://parikhkadam.github.io/blogs/how-ai-interior-design-works/): how AI room redesign works, why it moves doors and windows, how to use it well, using a 2024 eight-model competition entry as the example
 
 ## Elsewhere
 
