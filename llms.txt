@@ -25,6 +25,7 @@ Client names are withheld, so case studies describe what was built and how it wa
 
 ## Blogs
 
+- [What Is an Agent Harness? The Layers Around the Model That Make AI Agents Work](https://parikhkadam.github.io/blogs/what-is-an-agent-harness/): the loop, tools, context, guardrails, verification and logs around a model; agent harness vs guardrails vs eval harness; when to build a tool vs write a prompt; what loop engineering means; results from 60 runs per version of a room-planning agent
 - [Interior Design with AI: Why It Changes Your Room’s Structure](https://parikhkadam.github.io/blogs/how-ai-interior-design-works/): how AI room redesign works, why it moves doors and windows, how to use it well, using a 2024 eight-model competition entry as the example
 
 ## Elsewhere
